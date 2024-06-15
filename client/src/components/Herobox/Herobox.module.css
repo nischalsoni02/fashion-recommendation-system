@@ -1,0 +1,31 @@
+.main {
+  height: 90vh;
+  background-image: url("../../assets/heroboxbg.svg");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: auto;
+  display: flex;
+  align-items: center;
+}
+
+.body {
+  position: relative;
+  text-align: center;
+  width: 600px;
+  margin: 0 auto;
+  backdrop-filter: blur(10px);
+  border: 1px solid #04a0f4;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.generateBtn {
+  position: absolute;
+  left: 0;
+  bottom: -80px;
+  width: 100%;
+  font-size: 24px;
+  font-weight: 400;
+  height: auto;
+  background: linear-gradient(90deg, #04a0f4, #11b7da, #23d5b8);
+}

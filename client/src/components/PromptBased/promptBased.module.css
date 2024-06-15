@@ -1,0 +1,49 @@
+.container {
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  max-width: fit-content;
+  border: 1px solid #be4bdb;
+  border-radius: 16px;
+  padding: 40px
+}
+
+.prompt {
+  width: 700px;
+  margin-right: 40px;
+}
+
+.textBox {
+  font-family: "Courier New", Courier, monospace;
+  height: 300px;
+  width: 400px;
+  border-radius: 5px;
+  font-size: 17px;
+  padding: 2%;
+  box-shadow: 0 0 1px 1px #afb0b1;
+}
+
+.searchButton {
+  margin-top:15px; 
+  display: flex;
+  justify-content: flex-end;
+}
+
+.generatedImage {
+  border-radius: 16px;
+  border: 1px dotted #afb0b1;
+  padding: 10px;
+}
+
+.genAiImage {
+  height: 256px;
+  width: 256px;
+  background-color: rgb(175, 176, 177);
+  margin: auto;
+  border-radius: 5px;
+}
+
+.promptBox > div > textarea{
+  border-color: #1c7ed6 !important;
+}
+

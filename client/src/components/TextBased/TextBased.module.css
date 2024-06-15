@@ -1,0 +1,14 @@
+.section{
+    max-width: 700px;
+    margin: 0 auto;
+}
+.textPrompt {
+    border-radius: 14px;
+    height: 50%;
+    min-height: 700px;
+    width: 100%;
+    border: none;
+    box-shadow: 0 4px 46px hsla(0,0%,59.6%,.29);
+    padding-bottom: 20px;
+  }
+

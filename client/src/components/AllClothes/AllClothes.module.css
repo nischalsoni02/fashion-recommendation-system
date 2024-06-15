@@ -1,0 +1,38 @@
+.section{
+    max-width: 1440px;
+    min-height: 600px;
+    padding: 30px ;
+    margin: 70px auto 0 auto;
+}
+
+.body{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.image{
+    border-radius: 16px;
+    overflow: hidden;
+    margin-top: 16px;
+    height: 256px;
+    width: 256px;
+    border: 1px dotted #717171;
+}
+
+.results{
+    margin-top: 30px;
+    border: 1px dotted #dbf1f7;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 46px hsla(0,0%,59.6%,.29);
+}
+
+.prompt{
+    font-family: 'Lato', sans-serif !important;
+}
+
+.loadMore{
+    margin: 30px auto;
+    display: block;
+}
